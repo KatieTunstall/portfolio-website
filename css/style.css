@@ -21,61 +21,76 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
+  font-family: 'Asar';
   font-size: 2.00em;
   font-weight: 700;
 }
 
 h2 {
+font-family: 'Asar';
   font-size: 1.75em;
   font-weight: 400;
 }
 
 h3 {
+  font-family: 'Asar';
   font-size: 1.25em;
   font-weight: 400;
 }
 h4 {
+  font-family: 'Asar';
   font-size: 1.05em;
   font-weight: 300;
 }
-a {
-  color: #ff5757;
-  text-decoration: none; /* No underlining */
-}
 
-a:visited { /* visited link */
-  color: #395e66;
+a {
+  color: #2b2d42;
+  text-decoration: none;
+}
+a:visited {
+      color: #395e66;
 }
 a:hover,
-  a:focus {
-    color: #6dd6da;
+a:focus {
+  color: #ff5757;
     text-decoration: underline;
-  color: #6dd6da;
-  text-decoration: underline; /* Underlining when hovering over a link */
-  a:hover,
 }
-a:active { /* selected link */
-  color: #6dd6da;
+a:active {
+  color: #395e66;
 }
-.button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  .button {
+  display: inline-block;
   background-color: #ff5757;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  border-bottom: 2px solid #ffffff;
   transition: 0.2s opacity;
 }
-.button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  .button:hover {
+  display: inline-block;
+  background-color: #ff5757;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.2s opacity;0.8;
+  text-decoration: underline;
+}
+  .button:active {
+  display: inline-block;
+  background-color: #ff7f50;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  transition: 0.2s opacity;
   text-decoration: none;
-
 }
-.button:active {
-colour:#ffffff;
-}
-.button.contact {
+  .button.contact {
   background-color: transparent;
   color: #ff5757;
   text-transform: uppercase;
@@ -84,4 +99,22 @@ colour:#ffffff;
 .button.contact:hover {
   background-color: #ff5757;
   color: #ffffff;
+}
+.button.contact:active {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+.button.resume {
+background-color: transparent;
+color: #ff5757;
+text-transform: uppercase;
+border: 2px solid #ff5757;
+}
+.button.resume:hover {
+background-color: #ff5757;
+color: #ffffff;
+}
+.button.resume:active {
+background-color: #ff7f50;
+color: #ffffff;
 }
