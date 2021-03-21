@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 h1 {
   font-family: 'Asar';
   font-size: 2.00em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
@@ -48,15 +48,15 @@ a {
   text-decoration: none;
 }
 a:visited {
-      color: #395e66;
+      color: #2b2d42;
 }
 a:hover,
 a:focus {
   color: #ff5757;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
-  color: #395e66;
+  color: #ff5757;
 }
   .button {
   display: inline-block;
@@ -69,25 +69,11 @@ a:active {
   transition: 0.2s opacity;
 }
   .button:hover {
-  display: inline-block;
-  background-color: #ff5757;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #ffffff;
-  transition: 0.2s opacity;0.8;
-  text-decoration: underline;
+ opacity: 0.8;
 }
   .button:active {
-  display: inline-block;
   background-color: #ff7f50;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
   border-bottom: 2px solid #994c30;
-  transition: 0.2s opacity;
   text-decoration: none;
 }
   .button.contact {
