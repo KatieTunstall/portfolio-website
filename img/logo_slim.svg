@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="200" viewBox="0 0 600 200">
+  <defs>
+    <clipPath id="clip-Logo_-_slim">
+      <rect width="600" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_-_slim" data-name="Logo - slim" clip-path="url(#clip-Logo_-_slim)">
+    <rect width="600" height="200" fill="#ff5757"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(-80.5 -64.6)">
+      <path id="Path_4" data-name="Path 4" d="M53.789-157.047,32.767-180.708v23.661h-8.9V-229.4h8.9v42.532L53.4-210.627H65.815L40.589-183.935l25.324,26.888Z" transform="translate(93.109 319)" fill="#fff"/>
+      <path id="Path_5" data-name="Path 5" d="M23.9-191.834v31.581q0,3.911,1.662,5.524t5.769,1.613h6.551v7.529H29.864q-7.431,0-11.146-3.422T15-160.253v-31.581H8.06v-7.333H15V-212.66h8.9v13.493H37.881v7.333Z" transform="translate(163.858 307.54)" fill="#fff"/>
+      <path id="Path_7" data-name="Path 7" d="M70.327-169.88v53.58h-8.9v-7.92a17.322,17.322,0,0,1-7.089,6.4,21.9,21.9,0,0,1-10.022,2.3,24.021,24.021,0,0,1-11.244-2.591,18.837,18.837,0,0,1-7.871-7.773,25.591,25.591,0,0,1-2.884-12.613V-169.88h8.8v30.212q0,7.92,4.009,12.173t10.951,4.253q7.138,0,11.244-4.4T61.43-140.45v-29.43Z" transform="translate(377.4 355.526)" fill="#fff"/>
+      <path id="Path_8" data-name="Path 8" d="M38.251-116.3,25.54-136.246,13.319-116.3H4.03l17.306-26.595L4.03-169.88H14.1l12.711,19.848L38.935-169.88h9.289l-17.208,26.5L48.322-116.3Z" transform="translate(461.833 355.526)" fill="#fff"/>
+      <path id="Path_6" data-name="Path 6" d="M0,0H537.128" transform="translate(111.5 171.1)" fill="none" stroke="#fff" stroke-width="9"/>
+    </g>
+  </g>
+</svg>

@@ -5,9 +5,67 @@ Secondary colour (Grey): 2b2d42
 Hover colour (Bright turquiose):6dd6da
 Visited links (Dark turquiose): 395e66
 */
+
+/*
+Fonts used:
+h1 - Comfortaa 700 bold
+h2 - Comfortaa 500 medium
+h3 - Comfortaa 400 regular
+Quotes - Montserrat 200 extra-light italic
+Body - Comfortaa 300 light
+
+*/
+
+header {
+  background-color: #ff5757;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 3px solid #4a4a4a;
+  margin: 10px;
+  box-shadow:7px 7px 5px 0px;
+  position: fixed;
+  width: 100%;
+  }
+
+nav {
+  display: inline-block;
+  width: 100%
+
+  }
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+nav > ul > li > a
+:visited,
+:hover,
+:active {
+font-weight: 700;
+color: #ff5757;
+}
+
 img {
   width: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Comfortaa', sans-serif;
@@ -20,87 +78,134 @@ body {
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
-  font-family: 'Asar';
+font-family: 'comfortaa', sans-serif;
   font-size: 2.00em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
-font-family: 'Asar';
+font-family: 'comfortaa', sans-serif;
   font-size: 1.75em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3 {
-  font-family: 'Asar';
+font-family: 'comfortaa', sans-serif;
   font-size: 1.25em;
   font-weight: 400;
 }
+
 h4 {
-  font-family: 'Asar';
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.05em;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 a {
   color: #2b2d42;
   text-decoration: none;
 }
+
 a:visited {
       color: #2b2d42;
 }
+
 a:hover,
 a:focus {
   color: #ff5757;
-    text-decoration: none;
+  text-decoration: none;
 }
+
 a:active {
   color: #ff5757;
 }
-  .button {
-  display: inline-block;
-  background-color: #ff5757;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #ffffff;
-  transition: 0.2s opacity;
+
+.button {
+display: inline-block;
+background-color: #ff5757;
+color: #ffffff;
+font-weight: 400;
+padding: 10px;
+border-radius: 3px;
+border-bottom: 2px solid #ffffff;
+transition: 0.2s opacity;
 }
-  .button:hover {
+
+.button:hover {
  opacity: 0.8;
 }
-  .button:active {
-  background-color: #ff7f50;
-  border-bottom: 2px solid #994c30;
-  text-decoration: none;
+
+.button:active {
+background-color: #ff7f50;
+border-bottom: 2px solid #994c30;
+text-decoration: none;
 }
-  .button.contact {
-  background-color: transparent;
-  color: #ff5757;
-  text-transform: uppercase;
-  border: 2px solid #ff5757;
+
+.button.contact {
+background-color: transparent;
+color: #ff5757;
+text-transform: uppercase;
+border: 2px solid #ff5757;
 }
+
 .button.contact:hover {
-  background-color: #ff5757;
-  color: #ffffff;
+background-color: #ff5757;
+color: #ffffff;
 }
+
 .button.contact:active {
-  background-color: #ff7f50;
-  color: #ffffff;
+background-color: #ff7f50;
+color: #ffffff;
 }
+
 .button.resume {
 background-color: transparent;
 color: #ff5757;
 text-transform: uppercase;
 border: 2px solid #ff5757;
 }
+
 .button.resume:hover {
 background-color: #ff5757;
 color: #ffffff;
 }
+
 .button.resume:active {
 background-color: #ff7f50;
 color: #ffffff;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0px;
+}
+
+.row #work {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+      text-align: center; /* Centers text */
+    }
+
+.logo {
+  max-width: 250px;
+}
+
+#hero {
+  background-color: #F9E0D9;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  }
+
+main {
+  padding-top: 175px;
 }
