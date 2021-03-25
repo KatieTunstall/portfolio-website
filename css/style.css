@@ -5,7 +5,6 @@ Secondary colour (Grey): 2b2d42
 Hover colour (Bright turquiose):6dd6da
 Visited links (Dark turquiose): 395e66
 */
-
 /*
 Fonts used:
 h1 - Comfortaa 700 bold
@@ -15,47 +14,46 @@ Quotes - Montserrat 200 extra-light italic
 Body - Comfortaa 300 light
 
 */
-
 header {
   background-color: #ff5757;
   text-align: center;
-  padding: 10px 0;
-  border-bottom: 3px solid #4a4a4a;
   margin: 10px;
-  box-shadow:7px 7px 5px 0px;
+  box-shadow: 0px 0px 8px 4px;
   position: fixed;
   width: 100%;
-  }
+}
 
 nav {
   display: inline-block;
   width: 100%
-
-  }
-
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-
 }
 
-nav > ul > li {
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
-  padding: 0 15px;
+nav>ul>li>a {
+  padding: 0 14px;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
 }
 
-nav > ul > li > a
-:visited,
-:hover,
-:active {
-font-weight: 700;
-color: #ff5757;
+nav>ul>li>a:visited {
+  color: #ffffff;
+}
+
+nav>ul>li>a:hover {
+  color: #ffffff;
+}
+
+nav>ul>li>a:active {
+  color: #ffffff;
 }
 
 img {
@@ -68,10 +66,13 @@ img {
 
 body {
   background-color: #ffffff;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
 
@@ -80,19 +81,19 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-font-family: 'comfortaa', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 2.00em;
   font-weight: 700;
 }
 
 h2 {
-font-family: 'comfortaa', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 1.75em;
   font-weight: 500;
 }
 
 h3 {
-font-family: 'comfortaa', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 1.25em;
   font-weight: 400;
 }
@@ -109,76 +110,77 @@ a {
 }
 
 a:visited {
-      color: #2b2d42;
+  color: #595758;
 }
 
 a:hover,
 a:focus {
-  color: #ff5757;
+  color: #595758;
   text-decoration: none;
 }
 
 a:active {
-  color: #ff5757;
+  color: #595758s;
 }
 
 .button {
-display: inline-block;
-background-color: #ff5757;
-color: #ffffff;
-font-weight: 400;
-padding: 10px;
-border-radius: 3px;
-border-bottom: 2px solid #ffffff;
-transition: 0.2s opacity;
+  display: inline-block;
+  background-color: #ff5757;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.2s;
+  opacity;
 }
 
 .button:hover {
- opacity: 0.8;
+  opacity: 0.8;
 }
 
 .button:active {
-background-color: #ff7f50;
-border-bottom: 2px solid #994c30;
-text-decoration: none;
+  background-color: #ff7f50;
+  border-bottom: 2px solid #994c30;
+  text-decoration: none;
 }
 
 .button.contact {
-background-color: transparent;
-color: #ff5757;
-text-transform: uppercase;
-border: 2px solid #ff5757;
+  background-color: transparent;
+  color: #ff5757;
+  text-transform: uppercase;
+  border: 2px solid #ff5757;
 }
 
 .button.contact:hover {
-background-color: #ff5757;
-color: #ffffff;
+  background-color: #ff5757;
+  color: #ffffff;
 }
 
 .button.contact:active {
-background-color: #ff7f50;
-color: #ffffff;
+  background-color: #ff7f50;
+  color: #ffffff;
 }
 
 .button.resume {
-background-color: transparent;
-color: #ff5757;
-text-transform: uppercase;
-border: 2px solid #ff5757;
+  background-color: transparent;
+  color: #ff5757;
+  text-transform: uppercase;
+  border: 2px solid #ff5757;
 }
 
 .button.resume:hover {
-background-color: #ff5757;
-color: #ffffff;
+  background-color: #ff5757;
+  color: #ffffff;
 }
 
 .button.resume:active {
-background-color: #ff7f50;
-color: #ffffff;
+  background-color: #ff7f50;
+  color: #ffffff;
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -188,15 +190,17 @@ color: #ffffff;
 }
 
 .row #work {
-  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
 }
 
 #hero h1 {
-      text-align: center; /* Centers text */
-    }
+  text-align: center;
+  /* Centers text */
+}
 
 .logo {
-  max-width: 250px;
+  max-width: 140px;
 }
 
 #hero {
@@ -204,8 +208,126 @@ color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-  }
+  text-align: center;
+}
 
 main {
   padding-top: 175px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    padding-top: 375px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-left: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* ==============================
+Large devices (1024px or larger)
+================================= */
+  @media only screen and (min-width: 1024px) {
+    .col-lg-7 {
+      width: 50%;
+    }
+
+    .col-lg-5 {
+      width: 50%;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /* ==============================
+X-large devices (1440px or larger)
+================================= */
+  @media only screen and (min-width: 1440px) {}
+
+  @keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+
+    50% {
+      fill: #fcffad;
+    }
+
+    100% {
+      fill: #f76414;
+    }
+  }
+
+  .sun {
+    animation: 4s color-change infinite alternate linear;
+  }
+
+  @keyframes cloud-move {
+    from {
+      transform: translate(0, 50px);
+    }
+
+    to {
+      transform: translate(200px, 50px);
+    }
+  }
+
+  .cloud-front {
+    animation: 10s cloud-move infinite alternate linear;
+  }
+
+  @keyframes cloud-move-reverse {
+    from {
+      transform: translate(446px, 48px);
+    }
+
+    to {
+      transform: translate(100px, 48px);
+    }
+  }
+
+  .cloud-back {
+    animation: 15s cloud-move-reverse infinite alternate linear;
+  }
+
+.social .fab {
+  font-size: 18px;
+  color: #ff5757;
 }
