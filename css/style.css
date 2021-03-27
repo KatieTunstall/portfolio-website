@@ -110,7 +110,7 @@ a {
 }
 
 a:visited {
-  color: #2b2d42;
+  color: #ff5757;
 }
 
 a:hover,
@@ -150,6 +150,7 @@ a:active {
   color: #ff5757;
   text-transform: uppercase;
   border: 2px solid #ff5757;
+  margin-top: 20px;
 }
 
 .button.contact:hover {
@@ -184,6 +185,12 @@ a:active {
   padding: 0 15px;
 }
 
+.containerhero {
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
 .row {
   margin: 25px 0px;
 }
@@ -195,6 +202,8 @@ a:active {
 
 #hero h1 {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
   /* Centers text */
 }
 
@@ -207,24 +216,43 @@ a:active {
   display: inline-block;
   width: 100%;
   text-align: center;
+
 }
 
 main {
   padding-top: 171px;
 }
 
+h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.maintitle {
+padding-top: 35px;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 @keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
+  0% {fill: #edc655;}
+50% {fill: #fcffad;}
+  100% {fill: #f76414;}
 }
 
 .sun {
@@ -260,9 +288,45 @@ main {
 }
 
 .social .fab {
+text-align: center;
 font-size: 20px;
 color: #ff5757;
+margin-right: 10px;
 }
+
+.containerfooter {
+  background-color: #F9E0D9;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.normal {
+  text-decoration: none;
+}
+
+.contactskype {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contactphone {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.titlefooter {
+  text-align: center;
+}
+
+.footercopy {
+  text-align: center;
+}
+
+
 
 
 /* ==============================
@@ -285,7 +349,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 375px;
+    padding-top: 315px;
   }
 
   #hero span {
@@ -299,6 +363,7 @@ Medium devices (640px and larger)
   [class*="col-"] {
     float: left;
     padding-left: 10px;
+    padding-right: 10px;
   }
 
   .row::after {
@@ -306,25 +371,88 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
+
+  .maintitle {
+    text-align: center;
+  }
+
+  .velacasestudy {
+    border-bottom: 1px solid #4a4a4a;
+  }
+
+  .livemine {
+    border-bottom: 1px solid #4a4a4a;
+  }
+
+  .animation {
+    border-bottom: 1px solid #4a4a4a;
+  }
+
+  .mystorytitle {
+    text-align: center;
+  }
+
+  .buttonresume {
+    align-items: center;
+  }
+
+  .skillstitle {
+    text-align: center;
+  }
+
+
+
+
+
+
   }
 
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
   @media only screen and (min-width: 1024px) {
-    .col-lg-7 {
-      width: 50%;
+
+.col-lg-7 {
+      width: 60%;
     }
 
-    .col-lg-5 {
-      width: 50%;
+.col-lg-5 {
+      width: 40%;
     }
 
-    .container {
+    .col-lg-6 {
+      width: 50%
+    }
+
+.col-lg-10 {
+      width: 100%;
+    }
+
+.col-lg-2 {
+  width: 35%;
+}
+
+.container {
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
     }
+
+.pagetitle {
+  padding-top: 125px;
+}
+
+.mystorytitle {
+  text-align: left;
+}
+
+.skillstitle {
+  text-align: left;
+}
+
+
+
+
   }
 
   /* ==============================
