@@ -17,24 +17,27 @@
 
   <header>
     <div class="container">
-      <img src="img/logo_final.svg" alt="Katie Tunstall Logo">
+       <div class="navtoggle" id="myNavtoggle">
+      <a href="index.html"><img class="logo" src="img/logo_final.svg" alt="Katie Tunstall Logo"></a>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Contact<onclick="menuToggle()"/a></li> 
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
+      </div>
     </div>
   </header>
   <main>
 
     <section id="hero">
-      <div class="containerhero">
+      <div class="container">
         <h1>Hi, I'm Katie Tunstall<span> a UX/UI designer </span></h1>
-        <p>
+        <p class="textwidth">
           I have a background in photography and business development. During my career to date, I have gained valuable UX experience including; user research, user testing, creating & iterating prototypes.</p>
-        <p>
+        <p class="textwidth">
           I am currently based in Perth, Western Australia, but open to remote work, or relocation to the UK. Check out my latest work below!</p>
       </div>
     </section>
@@ -1010,7 +1013,7 @@
           </div>
           <div class="col-md-6 col-lg-5">
             <h3>Animated svg</h3>
-            <p>This animation was made to showcase an example of using html and css for animations.</p>
+            <p class="lastwork">This animation was made to showcase an example of using html and css for animations.</p>
           </div>
         </div>
       </div>
@@ -1019,7 +1022,7 @@
   </main>
 
   <footer id="contact">
-    <div class="containerfooter">
+    <div class="container">
       <div class="row">
         <h2 class="titlefooter">Get in touch</h2>
         <p>
@@ -1027,14 +1030,13 @@
           touch.</p>
       </div>
 
-      <p class=".normal">You can call me on:
-        <a href="tel:+61452238835" class="contactphone" </a>+61 452 238 835
+      <p>You can call me on:
+        <a href="tel:+61452238835" class="call" </a>+61 452 238 835
       </p>
 
-      <p class=".normal">Click here to call me on Skype
-        <a href="skype:katietunstall_2?call" class="contactskype" </a>
+      <p>Click here to call me on Skype
+        <a href="skype:katietunstall_2?call" class="call" </a>
       </p>
-
       <div class="emailbutton">
         <a href="mailto:katietunstall@icloud.com" class="button contact">Send me an email</a>
       </div>
@@ -1047,10 +1049,11 @@
             <i class="fab fa-twitter"></i>
           </a>
         </div>
-        <p>Copyright Katie Tunstall 2021 </p>
       </div>
+      <p class="copyright">Copyright Katie Tunstall 2021 </p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 

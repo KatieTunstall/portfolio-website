@@ -16,25 +16,16 @@ Body - Comfortaa 300 light
 */
 header {
   background-color: #ff5757;
-  text-align: center;
   box-shadow: 0px 0px 8px 4px;
   position: fixed;
   width: 100%;
-  padding: 10px 0 0;
-}
-
-nav {
-  display: inline-block;
-  width: 100%
+  padding: 10px 0 4px;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -54,6 +45,43 @@ nav>ul>li>a:hover {
 
 nav>ul>li>a:active {
   color: #ffffff;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 img {
@@ -190,19 +218,34 @@ a:active {
   padding: 0 15px;
 }
 
-.containerhero {
-  padding-bottom: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
+#hero .container {
+max-width: 700px;
+}
+
+#hero {
+  padding: 60px 0;
 }
 
 .row {
-  margin: 25px 0px;
+  margin: 25px 0;
 }
 
 .row #work {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
+}
+
+#work .row {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.lastwork {
+  padding-bottom: 40px;
+}
+
+.copyright {
+  font-size: 70%;
 }
 
 #hero h1 {
@@ -212,9 +255,7 @@ a:active {
   /* Centers text */
 }
 
-.logo {
-  max-width: 140px;
-}
+
 
 #hero {
   background-color: #F9E0D9;
@@ -224,7 +265,7 @@ a:active {
 }
 
 main {
-  padding-top: 171px;
+  padding-top: 56px;
 }
 
 h2 {
@@ -315,26 +356,13 @@ section {
   margin-right: 10px;
 }
 
-.containerfooter {
+footer {
   background-color: #F9E0D9;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  margin-bottom: 0;
+  padding: 20px 0 10px;
   text-align: center;
 }
 
-.normal {
-  text-decoration: none;
-}
-
-.contactskype {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.contactphone {
+.call {
   font-weight: bold;
   text-decoration: underline;
 }
@@ -406,6 +434,26 @@ Medium devices (640px and larger)
 
   header img {
     max-width: 200px;
+  }
+
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+}
+
+  .logo {
+    width: 641px;
   }
 
   .col-md-1 {
@@ -532,6 +580,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+
+  .logo {
+    min-width: 241px;
+  }
+
   .col-lg-1 {
     width: 8.33%;
   }
