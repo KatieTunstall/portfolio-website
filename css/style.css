@@ -67,20 +67,21 @@ nav>ul>li>a:active {
   padding-right: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -155,7 +156,7 @@ a:active {
   display: inline-block;
   background-color: #ff5757;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -219,7 +220,7 @@ a:active {
 }
 
 #hero .container {
-max-width: 700px;
+  max-width: 700px;
 }
 
 #hero {
@@ -254,8 +255,6 @@ max-width: 700px;
   padding-bottom: 10px;
   /* Centers text */
 }
-
-
 
 #hero {
   background-color: #F9E0D9;
@@ -436,9 +435,9 @@ Medium devices (640px and larger)
     max-width: 200px;
   }
 
-  nav > ul {
-  margin: 1em 0;
-}
+  nav>ul {
+    margin: 1em 0;
+  }
 
   nav>ul>li {
     display: inline-block;
@@ -449,8 +448,8 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li:last-child {
-  display: none;
-}
+    display: none;
+  }
 
   .logo {
     width: 641px;
@@ -570,18 +569,12 @@ Medium devices (640px and larger)
   .skillstitle {
     text-align: center;
   }
-
-  .centre {
-    text-align: centre;
-  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
-
   .logo {
     min-width: 241px;
   }
@@ -652,22 +645,21 @@ Large devices (1024px or larger)
     text-align: left;
   }
 
-.project-page h2, .project-page h3, .project-page p, .project-page ul, .project-page h1, .project-page .prototype {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .project-page h2, .project-page h3, .project-page p, .project-page ul, .project-page h1, .project-page .prototype {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.project-page p {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  .project-page p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-.maintitle {
-  text-align: left;
-  padding-left: 15px;
-}
-
+  .maintitle {
+    text-align: left;
+    padding-left: 15px;
+  }
 }
 
 /* ==============================
