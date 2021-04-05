@@ -105,13 +105,13 @@ body {
   color: #4a4a4a;
 }
 
-h1, h2, h3, h4 {
+h1 h2 h3 h4 {
   line-height: 1.4;
 }
 
 h1 {
   font-family: 'Comfortaa', cursive;
-  font-size: 2.00em;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -257,7 +257,7 @@ a:active {
 }
 
 #hero {
-  background-color: #F9E0D9;
+  background-color: #f9e0d9;
   display: inline-block;
   width: 100%;
   text-align: center;
